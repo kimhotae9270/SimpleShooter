@@ -22,22 +22,23 @@ Behavior Tree와 Blackboard를 이용한 AI, 라인트레이스 총기 시스템
 
 ## 🧩 클래스 구조 요약
 C++ Source/
-├─ SimpleShooter.cpp # 메인 모듈 초기화 (IMPLEMENT_PRIMARY_GAME_MODULE)
-├─ SimpleShooterGameModeBase.cpp # 기본 게임 모드, PawnKilled 이벤트 처리 준
+├─ SimpleShooter.cpp                      # 메인 모듈 초기화 (IMPLEMENT_PRIMARY_GAME_MODULE)
+├─ SimpleShooterGameModeBase.cpp          # 기본 게임 모드, PawnKilled 이벤트 처리 준비
 │
-├─ ShooterCharacter.cpp # 플레이어 캐릭터: 입력, 체력, 사격, 사망 처리
-├─ Gun.cpp # 총기 액터: 라인트레이스, 데미지, 이펙트/사운드
+├─ ShooterCharacter.cpp                   # 플레이어 캐릭터: 입력, 체력, 사격, 사망 처리
+├─ Gun.cpp                                # 총기 액터: 라인트레이스, 데미지, 이펙트/사운드
 │
-├─ ShooterAIController.cpp # AI 컨트롤러: BT 실행, 플레이어 추적
-│ ├─ BTService_PlayerLocation.cpp # 플레이어 위치 벡터 업데이트
-│ ├─ BTService_PlayerLocationIfSeen.cpp # 시야 확보 시 타깃 설정 / 미확보 시 클리어
-│ ├─ BTTask_Shoot.cpp # Shoot() 실행 태스크
-│ └─ BTTask_ClearBlackboardValue.cpp # 블랙보드 키 클리어
+├─ ShooterAIController.cpp                # AI 컨트롤러: BT 실행, 플레이어 추적
+│  ├─ BTService_PlayerLocation.cpp        # 플레이어 위치 벡터 업데이트
+│  ├─ BTService_PlayerLocationIfSeen.cpp  # 시야 확보 시 타깃 설정 / 미확보 시 클리어
+│  ├─ BTTask_Shoot.cpp                    # Shoot() 실행 태스크
+│  └─ BTTask_ClearBlackboardValue.cpp     # 블랙보드 키 클리어
 │
-├─ KillEmAllGameMode.cpp # 라운드 승/패 판정, 게임 종료 처리
-├─ ShooterPlayerController.cpp # HUD 표시, 승/패 위젯, 재시작 타이머
-├─ MyPawn.cpp # 테스트용 기본 Pawn
-└─ 기타: BehaviorTree/Blackboard/Blueprint 에셋 3종 포함
+├─ KillEmAllGameMode.cpp                  # 라운드 승/패 판정, 게임 종료 처리
+├─ ShooterPlayerController.cpp            # HUD 표시, 승/패 위젯, 재시작 타이머
+├─ MyPawn.cpp                             # 테스트용 기본 Pawn
+└─ 기타: BehaviorTree / Blackboard / Blueprint 에셋 3종 포함
+
 
 ---
 
