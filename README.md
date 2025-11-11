@@ -88,9 +88,14 @@ C++ Source/
    - 플레이어 사망 → 패배 / 모든 AI 사망 → 승리.  
 
 4. **UI 표시 및 재시작**  
+
    - `ShooterPlayerController`가 승패 위젯 표시.  
    - 일정 시간 후 `RestartLevel()` 호출로 재시작.
 
 ---
 
 ## 🏗️ 빌드 및 실행
+
+<p align=center>
+  ![output](https://github.com/user-attachments/assets/4104f6d4-6f65-4f48-a9b8-956033c8da17)
+</p>
