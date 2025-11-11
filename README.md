@@ -95,7 +95,7 @@ C++ Source/
 ---
 
 ## 🏗️ 빌드 및 실행
-
-<p align=center>
-  ![output](https://github.com/user-attachments/assets/4104f6d4-6f65-4f48-a9b8-956033c8da17)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4104f6d4-6f65-4f48-a9b8-956033c8da17" alt="myrecord_small" width="600"/>
 </p>
+
