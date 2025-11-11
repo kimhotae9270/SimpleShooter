@@ -21,6 +21,7 @@ Behavior Tree와 Blackboard를 이용한 AI, 라인트레이스 총기 시스템
 ---
 
 ## 🧩 클래스 구조 요약
+```markdown
 C++ Source/
 ├─ SimpleShooter.cpp                      # 메인 모듈 초기화 (IMPLEMENT_PRIMARY_GAME_MODULE)
 ├─ SimpleShooterGameModeBase.cpp          # 기본 게임 모드, PawnKilled 이벤트 처리 준비
